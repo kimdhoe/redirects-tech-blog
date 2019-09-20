@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "name": "redirects-tech-blog",
+  "alias": [
+    "josephk.io"
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 301,
+      "headers": {
+        "Location": "https://www.josephk.io"
+      }
+    }
+  ]
+}
